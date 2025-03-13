@@ -4,8 +4,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 
-nltk.download('punkt')
 
+nltk.download('punkt_tab')
 
 class TextRank:
     """
